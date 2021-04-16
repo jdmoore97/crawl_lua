@@ -24,6 +24,7 @@ HEADERS := lua.h luaconf.h lualib.h lauxlib.h
 SOURCES = \
     lapi.c \
     lcode.c \
+    lctype.c \
     ldebug.c \
     ldo.c \
     ldump.c \
