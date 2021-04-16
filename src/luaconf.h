@@ -329,6 +329,7 @@
 ** You can define it to get all options, or change specific options
 ** to fit your specific needs.
 */
+#define LUA_COMPAT_5_3 lua_strlen(L,i)
 #if defined(LUA_COMPAT_5_3)	/* { */
 
 /*
